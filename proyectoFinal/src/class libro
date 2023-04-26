@@ -1,0 +1,27 @@
+package libreria;
+
+public class Libro {
+	String titulo;
+	String autor;
+	int fechadepublicacion;
+	String editor;
+	int codigo;
+	
+	public Libro(String titulo, String autor, int fechadepublicacion, String editor, int codigo) {
+		this.titulo = titulo;
+	    this.autor = autor;
+	    this.fechadepublicacion = fechadepublicacion;
+	    this.editor = editor;
+	    this.codigo = codigo;
+	    
+	}			
+	 public void imprimirDatos() {	
+		 System.out.println ("el titulo es:" + titulo);
+		 System.out.println ("el autor es:" + autor);
+		 System.out.println ("la fecha de publicacion es:" + fechadepublicacion);
+		 System.out.println ("el editor es:" + editor);
+		 System.out.println ("el codigo es:" + codigo);
+	}
+	
+
+}
